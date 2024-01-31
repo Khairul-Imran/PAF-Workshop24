@@ -1,0 +1,6 @@
+Note:
+- Keep in mind the properties that you would need to input, and what you don't need to input (like those that are auto generated)
+- Like auto_incremented id numbers
+- And timestamps
+
+You don't have to give these when inserting.
