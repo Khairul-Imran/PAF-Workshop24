@@ -4,3 +4,9 @@ Note:
 - And timestamps
 
 You don't have to give these when inserting.
+
+- However, recall that foreign keys would need to be included when inserting. So you will have to figure out how to access the appropriate foreign keys.
+
+For this workshop:
+- An order contains multiple order details.
+
