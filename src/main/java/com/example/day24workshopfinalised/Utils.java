@@ -8,7 +8,5 @@ public class Utils {
     public static final String CTRL_UNIT_PRICE = "unitPrice";
     public static final String CTRL_DISCOUNT = "discount";
     public static final String CTRL_QUANTITY = "quantity";
-
-    
     
 }
