@@ -26,17 +26,16 @@ public class OrderController {
     @Autowired
     private OrderServices orderServices;
 
-    @GetMapping(path = {"/", "/index.html"})
-
+    
     // Get the homepage, and any existing order information from the session.
-    @PostMapping
+    @GetMapping(path = {"/", "/index.html"})
     public ModelAndView getIndex(HttpSession httpSession) {
         ModelAndView mav = new ModelAndView("index");
         Order order = getOrder(httpSession);
 
         mav.addObject(Utils.ATTR_ORDER, order);
 
-        return null;
+        return mav;
     }
 
     // Posting the order, to be stored in the session.
